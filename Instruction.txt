@@ -1,0 +1,18 @@
+Program launch:
+
+1. First, you need to open the downloaded project in Intellij IDEA: File -> Open -> Choose project CodingTask
+2. The source code is on the path CodingTask/src/main/kotlin/website.kt
+3. To run the program, go to the website.kt file -> LMB -> Run WebSiteKt
+4. After that you will see a result with the default article given in the code and the title as the result of code execution
+5. The short title is formed according to the following rule: If the article contains more than 25 symbols, then the title will contain no more than 4 words long + “…” at the end, otherwise the entire article is returned
+6. To change the default article, you must change the value of the str variable in main() func and rerun the code.
+
+Test launch:
+
+1. The tests are on the path CodingTask/src/test/kotlin/WebsiteTest
+2. To run the tests, go to the classWebsiteTest -> LBM -> Run WebSiteTest
+3. The results of the Run will be the passing of tests:
+    1. Check article is shorter, than 25 symbols
+    2. Article is longer than 25 symbols
+    3. Article is equal 25 symbols
+    4. Article is empty
